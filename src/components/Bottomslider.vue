@@ -14,21 +14,21 @@
 
 <script>
   export default {
-      name: 'Hero',
+      name: 'Bottomslider',
     data () {
       return {
         items: [
           {
-            src: require('../assets/images/TS1@2x.png'),
+            src: require('../assets/images/bs1.png'),
           },
           {
-            src: require('../assets/images/TS2@2x.png'),
+            src: require('../assets/images/bs2.png'),
           },
           {
-            src: require('../assets/images/TS3@2x.png'),
+            src: require('../assets/images/bs3.png'),
           },
           {
-            src: require('../assets/images/TS4@2x.png'),
+            src: require('../assets/images/bs4.png'),
           },
         ],
       }

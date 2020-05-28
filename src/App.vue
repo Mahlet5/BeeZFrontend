@@ -8,7 +8,16 @@
     </v-app-bar>
 
     <v-content>
-     <Hero/>
+     <Topslider/>
+     <div class="row">
+     <div class="col-6">
+        <Bottomslider/>
+     </div>
+
+      <div class="col-6">
+        
+     </div>
+     </div>
     </v-content>
 
   </v-app>
@@ -16,14 +25,16 @@
 
 <script>
 import Header from './components/Header';
-import Hero from './components/Hero';
+import Topslider from './components/Topslider';
+import Bottomslider from './components/Bottomslider';
 
 export default {
   name: 'App',
 
   components: {
     Header,
-    Hero
+    Topslider,
+    Bottomslider
   },
 
   data: () => ({
