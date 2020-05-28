@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+ 
  <v-toolbar flat>
    
       <v-toolbar-title>BeeZ Social ERP</v-toolbar-title>
@@ -33,7 +33,7 @@
       </v-toolbar-items>
     </v-toolbar>
 
-   </v-container>
+  
 </template>
 
 <script>
